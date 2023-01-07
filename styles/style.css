@@ -21,11 +21,10 @@ header {
 
 .banner-title {
     font-weight: 700;
-    font-size: 85px;
+    font-size: 65px;
     color: #FFFFFF;
     text-align: center;
-    padding-left: 107px;
-    padding-right: 107px;
+    padding: 20px 150px;
     padding-top: 174px;
 
 }
@@ -35,8 +34,7 @@ header {
     font-size: 18px;
     text-align: center;
     color: #FFFFFF;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding: 40px 300px;
     padding-top: 40px;
 
 
@@ -78,25 +76,28 @@ header {
 }
 
 /* amounts style */
+.amounts {
+    margin-bottom: 80px;
+}
+
 .amount {
     display: flex;
     justify-content: space-evenly;
     padding: 60px 200px;
-    /* margin-right: 40px; */
-    padding-right: 80px;
+    padding-right: 100px;
     gap: 20px;
 
 }
 
 .amount-number {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 
 .amount-title {
     font-weight: 700;
     font-size: 30px;
-    padding: 44px 42px;
+    padding: 42px;
     border: 0px;
     border-radius: 5px;
     background: #FAFAFA;
@@ -111,4 +112,20 @@ header {
     padding: 44px 42px;
     font-weight: 700;
     font-size: 30px;
+}
+
+/* input-amount style */
+
+.input-amount {
+    text-align: center;
+    padding: 60px 200px;
+
+}
+
+.input {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    padding: 15px 50px;
+    border: 0;
 }
