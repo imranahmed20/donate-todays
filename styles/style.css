@@ -189,7 +189,31 @@ header {
 }
 
 /* contribution */
-.contribution{
+.contribution {
     display: flex;
+    justify-content: space-evenly;
     padding: 20px 120px;
+}
+
+.contribution-text {
+    margin-top: 50px;
+    padding: 20px 0px;
+    width: 50%;
+    padding-right: 40px;
+
+}
+
+.contribution-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #121212;
+    margin-bottom: 10px;
+
+}
+
+.contribution-detail {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 10px;
 }
