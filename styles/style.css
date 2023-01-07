@@ -8,6 +8,7 @@
 header {
     background-image: url('../images/donation4.jpg'), url('../images/gradient2.png');
     background-blend-mode: multiply;
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -55,7 +56,7 @@ header {
 
 }
 
-/* donate style */
+/* donate and plan style */
 .donate {
     text-align: center;
 }
@@ -128,4 +129,67 @@ header {
     color: #B3B3B3;
     padding: 15px 50px;
     border: 0;
+}
+
+/* item style */
+.items {
+    padding: 20px 120px;
+    margin-bottom: 80px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.item-food {
+    text-align: left;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    padding-top: 50px;
+    padding-bottom: 28px;
+}
+
+.item-shelter {
+    text-align: left;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    padding-top: 50px;
+    padding-bottom: 28px;
+
+}
+
+.item-frame {
+    text-align: left;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    padding-top: 50px;
+    padding-bottom: 28px;
+
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.item-detail {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+/* contribution */
+.contribution{
+    display: flex;
+    padding: 20px 120px;
 }
