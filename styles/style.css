@@ -226,6 +226,38 @@ header {
     color: #707070;
     margin-bottom: 10px;
 }
+/* about style */
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 130px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+.about-description {
+    padding-left: 80px;
+    padding-top: 50px;
+    width: 50%;
+
+
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.about-detail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 10px;
+}
 
 /* update style */
 .update {
