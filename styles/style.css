@@ -91,7 +91,7 @@ header {
 }
 
 .amount-number {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -192,9 +192,9 @@ header {
 /* contribution */
 .contribution {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px 130px;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
 }
 
 .contribution-text {
@@ -256,10 +256,15 @@ header {
     background: #FFF4D6;
     border-radius: 5px;
     margin-bottom: 120px;
+    align-items: center;
     
 }
 .email-input{
     padding: 10px 100px;
+    
+}
+.input-text{
+    text-align: center;
 }
 /* footer style */
 .footer{
