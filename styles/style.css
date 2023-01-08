@@ -185,6 +185,7 @@ header {
 .item-detail {
     font-weight: 400;
     font-size: 16px;
+    color: #707070;
 
 }
 
@@ -242,7 +243,9 @@ header {
 .update-detail {
     font-weight: 400;
     font-size: 18px;
+    padding: 10px 150px;
     align-items: center;
+    color: #707070;
 }
 
 /* email style */
@@ -252,6 +255,7 @@ header {
     padding: 50px 120px;
     background: #FFF4D6;
     border-radius: 5px;
+    margin-bottom: 120px;
     
 }
 .email-input{
